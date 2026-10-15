@@ -1,0 +1,85 @@
+{
+  "metadata": { "title": "ميزون سيلاج — عطور تعبّر عنك", "description": "اكتشف عالماً من العطور المختارة بعناية." },
+  "nav": { "home": "العودة إلى الصفحة الرئيسية", "label": "التنقل الرئيسي", "shop": "تسوّق", "story": "حكاية الدار", "advisor": "مستشارك العطري", "cart": "حقيبتي", "account": "حسابي", "language": "English" },
+  "chime": { "label": "نغمة الترحيب", "prompt": "هل ترغب بنغمة ترحيب هادئة من الدار؟", "play": "تشغيل النغمة", "skip": "ليس الآن" },
+  "adminCore": {
+    "admin": "الإدارة", "operations": "إدارة الطلبات", "orders": "الطلبات", "orderDetail": "تفاصيل الطلب", "statusLabel": "الحالة", "allStatuses": "كل الحالات", "filter": "تصفية", "loadError": "تعذر تحميل الطلبات.", "order": "الطلب", "customer": "الزبون", "total": "الإجمالي", "placed": "تاريخ الطلب", "open": "فتح", "noOrders": "لا توجد طلبات تطابق هذه التصفية.",
+    "fulfilment": "تجهيز الطلب", "cash": "التحصيل النقدي", "address": "العنوان", "notes": "الملاحظات", "updateStatus": "تحديث الحالة", "nextStatus": "الحالة التالية", "reason": "السبب (مطلوب للإلغاء أو الإرجاع)", "confirmCash": "تم تحصيل النقد عند التسليم", "finalStatus": "وصل هذا الطلب إلى حالة نهائية.",
+    "notification": "الإشعار", "attempts": "المحاولات", "lastIssue": "آخر مشكلة", "nextAttempt": "المحاولة التالية", "retryNotification": "إعادة محاولة الإشعار", "forceResend": "إعادة الإرسال قسرًا", "noNotification": "لا يوجد سجل إشعار.", "items": "المنتجات", "history": "سجل الحالات", "created": "تم الإنشاء", "saved": "تم الحفظ", "saving": "جارٍ الحفظ…", "saveError": "تعذر حفظ التغيير. راجع البيانات وحاول مجددًا.",
+    "status": {"new":"جديد","confirmed":"مؤكد","preparing":"قيد التجهيز","shipped":"تم الشحن","delivered":"تم التسليم","cancelled":"ملغى","returned":"مرتجع"},
+    "cashStatus": {"uncollected":"لم يُحصّل","collected":"تم التحصيل","not_due":"غير مستحق"},
+    "notificationStatus": {"pending":"قيد الانتظار","processing":"قيد المعالجة","sent":"تم الإرسال","failed":"فشل"}
+  },
+  "hero": { "artDescription": "زجاجة عطر منحوتة تحت ضوء دافئ", "eyebrow": "فنّ العطر، ببصمة شخصية", "title": "عطرٌ يبقى\nحين يرحل الكلام.", "body": "اكتشف عالماً من الروائح الهادئة والمميزة، صُممت لترافق لحظاتك كما تحب أن تتذكرها.", "primary": "اكتشف المجموعة", "secondary": "اعثر على عطرك", "note": "مختارة بعناية، لتُعاش على مهل." },
+  "collection": { "eyebrow": "عالم ميزون سيلاج", "title": "كل رائحة، بداية حكاية.", "body": "نؤمن أن العطر الأجمل هو ما يشبهك دون أن يشرحك. اكتشف مكونات متوازنة وتفاصيل صُنعت لتبقى قريبة.", "one": "نفحات مضيئة", "two": "عمق يترك أثرًا", "three": "اختيار يشبهك" },
+  "footer": { "line": "تفاصيل صغيرة، وذكرى لا تُنسى.", "copyright": "© 2026 ميزون سيلاج. جميع الحقوق محفوظة." },
+  "placeholder": { "message": "هذه الصفحة ضمن مراحل البناء القادمة.", "back": "العودة إلى الرئيسية" },
+  "advisor": {
+    "title": "اكتشف العطر الذي يشبهك",
+    "intro": "ثمانية أسئلة قصيرة ترسم ملامح ذوقك، ثم نرشح لك ما يناسبك من المجموعة المتاحة.",
+    "loading": "نهيئ أسئلتك…",
+    "loadError": "تعذر تحميل الأسئلة الآن. حاول مجددًا بعد قليل.",
+    "saveError": "تعذر حفظ إجاباتك. حاول مرة أخرى.",
+    "retry": "إعادة المحاولة",
+    "matching": "نراجع اختياراتك مع المجموعة المتاحة…",
+    "noMatches": "لم نجد اختيارًا متاحًا يطابق هذه التفضيلات حاليًا. يمكنك تعديل ميزانيتك أو استثناءاتك ثم إعادة البحث.",
+    "startOver": "ابدأ من جديد",
+    "newConsultation": "ابدأ استشارة جديدة",
+    "profile": "ملفك العطري",
+    "question": "السؤال {current} من {total}",
+    "back": "السابق",
+    "answersSaved": "إجاباتك محفوظة لهذه الجلسة",
+    "available": "متوفر الآن",
+    "unavailable": "نفد حاليًا",
+    "notMeasured": "لم يُحدد",
+    "scoreLabel": "درجة التوافق {score}%",
+    "disclaimer": "درجة التوافق مقياس داخلي لمدى تقارب العطر من تفضيلاتك، وليست ضمانًا للإعجاب بالرائحة.",
+    "errors": {"unavailable":"المستشار غير متاح الآن.","not_found":"تعذر العثور على الجلسة أو النتيجة.","invalid":"تحقق من إجاباتك وحاول مجددًا.","incomplete":"أجب عن مزيد من أسئلة التفضيل.","no_matches":"لم نجد عطرًا متاحًا يطابق هذه التفضيلات.","expired":"انتهت صلاحية الجلسة. ابدأ استشارة جديدة.","database":"تعذر حفظ نتيجة الاستشارة."}
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "createAccount": "إنشاء حساب",
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "welcome": "ادخل إلى حسابك لمتابعة طلباتك واختياراتك.",
+    "registerIntro": "أنشئ حسابًا لحفظ طلباتك وعطورك المفضلة.",
+    "newHere": "ليس لديك حساب؟",
+    "haveAccount": "لديك حساب بالفعل؟",
+    "working": "جارٍ المتابعة…",
+    "checkEmail": "أرسلنا رابط تأكيد إلى بريدك الإلكتروني. افتحه لإكمال التسجيل.",
+    "tryAgain": "تعذر إكمال العملية. تحقق من البيانات وحاول مجددًا.",
+    "unavailable": "خدمة الحسابات غير مضبوطة بعد. حاول لاحقًا.",
+    "account": "حسابي",
+    "signedInAs": "مسجّل باسم",
+    "signOut": "تسجيل الخروج", "forgotPassword": "نسيت كلمة المرور؟", "resetPassword": "تعيين كلمة مرور جديدة", "newPassword": "كلمة المرور الجديدة", "sendReset": "إرسال رابط الاستعادة", "resetEmailSent": "إذا كان البريد مسجلاً، سيصلك رابط استعادة كلمة المرور."
+  },
+  "catalog": {
+    "familyFilter": "العائلة العطرية", "seasonFilter": "الموسم", "occasionFilter": "المناسبة", "genderFilter": "الفئة", "anyFilter": "الكل", "minPrice": "السعر من (د.ع)", "maxPrice": "السعر إلى (د.ع)",
+    "eyebrow": "مجموعة العطور", "title": "اعثر على عطرك الأقرب إليك.", "intro": "اكتشف تركيبات مختارة لكل مزاج، من الحمضيات المضيئة إلى الأخشاب الهادئة.", "searchLabel": "ابحث", "searchPlaceholder": "اسم العطر أو الدار أو العائلة العطرية", "categoryLabel": "المجموعة", "allCategories": "كل المجموعات", "availabilityLabel": "التوفر", "anyAvailability": "كل حالات التوفر", "availableOnly": "متوفر", "unavailableOnly": "غير متوفر", "applyFilters": "عرض النتائج", "resetFilters": "مسح الفلاتر", "resultCount": "{count, plural, zero {لا توجد عطور} one {عطر واحد} two {عطران} few {# عطور} many {# عطرًا} other {# عطر}}", "noResults": "لم نعثر على عطور", "noResultsBody": "جرّب اسمًا آخر أو امسح أحد الفلاتر لاستكشاف المجموعة كاملة.", "unconfigured": "الكتالوج غير متصل بعد", "unconfiguredBody": "اربط مشروع Supabase المحلي وشغّل الترحيلات والبيانات الأولية لاستعراض عطور الديمو.", "loadError": "تعذر تحميل المجموعة", "loadErrorBody": "حدّث الصفحة بعد لحظات.", "viewProduct": "استكشف العطر", "from": "ابتداءً من", "inStock": "متوفر", "outOfStock": "غير متوفر حاليًا", "productNotFound": "العطر غير موجود", "backToShop": "العودة إلى المجموعة", "notes": "النفحات", "topNotes": "المقدمة", "heartNotes": "القلب", "baseNotes": "القاعدة", "size": "الحجم", "concentration": "التركيز", "longevity": "الثبات", "projection": "الفوحان", "gender": "المجموعة", "family": "العائلة العطرية", "seasons": "الموسم", "occasions": "المناسبة", "featured": "اختيار الدار", "homeLink": "العودة إلى الدار",
+    "saveFavorite":"احفظ العطر", "removeFavorite":"أزل من المحفوظات", "favoriteWorking":"جارٍ الحفظ…", "favoriteSaved":"حُفظ العطر.", "favoriteRemoved":"أُزيل العطر من المحفوظات.", "favoriteAuth":"سجّل الدخول لحفظ هذا العطر.", "favoriteError":"تعذر تحديث العطور المحفوظة. حاول مجددًا.",
+    "terms": {"spring":"الربيع","summer":"الصيف","autumn":"الخريف","winter":"الشتاء","day":"النهار","night":"الليل","office":"العمل","travel":"السفر","evening":"المساء","occasion":"المناسبات"}
+  },
+  "cart": {
+    "title": "حقيبة التسوق", "empty": "حقيبتك بانتظار عطر يرافقك.", "continue": "مواصلة التسوق", "checkout": "متابعة إلى إتمام الطلب", "subtotal": "المجموع الفرعي", "quantity": "الكمية", "size": "الحجم", "remove": "إزالة", "loading": "جارٍ تحميل حقيبتك…", "error": "تعذر تحميل الحقيبة. سجّل الدخول وحاول مجددًا.", "unavailable": "هذا المنتج لم يعد متاحًا.", "added": "أُضيف إلى حقيبتك", "add": "أضف إلى الحقيبة", "adding": "جارٍ الإضافة…", "viewCart": "عرض الحقيبة", "signInToAdd": "سجّل الدخول لإضافة هذا العطر.", "addError": "تعذرت إضافة المنتج. حاول مجددًا.", "mergeAdjusted": "بعض المنتجات لم تعد متاحة أو عُدّلت كمياتها. راجع حقيبتك."
+  },
+  "checkout": {
+    "title": "بيانات التوصيل", "intro": "سيكون الدفع نقدًا عند استلام الطلب.", "recipientName": "اسم المستلم", "phone": "رقم الهاتف بالصيغة الدولية", "city": "المدينة", "district": "المنطقة", "street": "الشارع والبناية", "landmark": "أقرب نقطة دالة (اختياري)", "notes": "ملاحظة للطلب (اختياري)", "zone": "منطقة التوصيل", "coupon": "رمز الخصم", "apply": "تحديث السعر", "place": "تأكيد طلب الدفع عند الاستلام", "payment": "الدفع نقدًا عند الاستلام", "summary": "ملخص الطلب", "subtotal": "المنتجات", "discount": "الخصم", "shipping": "التوصيل", "total": "المبلغ عند الاستلام", "working": "جارٍ تجهيز طلبك…", "quoteRequired": "حدّث السعر قبل تأكيد الطلب.", "quoteExpired": "انتهت صلاحية السعر. حدّثه وحاول مجددًا.", "stockChanged": "تغير المخزون. حدّث حقيبتك والسعر.", "priceChanged": "تغيرت الأسعار أو رسوم التوصيل. راجع الإجمالي الجديد قبل الطلب.", "couponInvalid": "رمز الخصم غير صالح لهذا الطلب.", "COUPON_INVALID": "رمز الخصم غير صالح لهذا الطلب.", "COUPON_LIMIT_REACHED": "وصل رمز الخصم إلى حد استخدامه.", "RATE_LIMITED": "تكررت محاولات الطلب. انتظر دقيقة ثم حاول مجددًا.", "success": "تم استلام طلبك.", "orderNumber": "رقم الطلب", "viewOrder": "عرض طلبك", "empty": "حقيبتك فارغة.", "unavailable": "إتمام الطلب غير متاح مؤقتًا.", "AUTH_REQUIRED": "سجّل الدخول لمتابعة الطلب.", "EMAIL_UNCONFIRMED": "أكد بريدك الإلكتروني قبل تأكيد الطلب.", "INVALID_BODY": "تحقق من البيانات وحاول مجددًا.", "IDEMPOTENCY_CONFLICT": "تغيرت محاولة الطلب. ابدأ إتمام الطلب من جديد.", "PRODUCT_UNAVAILABLE": "أحد المنتجات أو أكثر لم يعد متاحًا.", "SHIPPING_ZONE_INVALID": "اختر منطقة توصيل متاحة.", "QUOTE_INVALID": "حدّث السعر وحاول مجددًا.", "INTERNAL_ERROR": "حدث خطأ. حاول مجددًا.", "CSRF_REJECTED": "حدّث الصفحة وحاول مجددًا."
+  },
+  "orders": {
+    "title": "طلباتي", "empty": "لم تنشئ أي طلب بعد.", "status": "الحالة", "new": "تم الاستلام", "confirmed": "مؤكد", "preparing": "قيد التجهيز", "shipped": "في الطريق", "delivered": "تم التوصيل", "cancelled": "ملغي", "returned": "مُعاد", "back": "العودة إلى حسابك"
+  },
+  "account": {
+    "navigation": "صفحات الحساب", "overview": "نظرة عامة", "orders": "الطلبات السابقة", "favorites": "العطور المحفوظة", "profile": "بيانات الحساب", "profileName": "الاسم الكامل", "profilePhone": "الهاتف", "addresses": "عناوين التوصيل", "addAddress": "إضافة عنوان", "editAddress": "تعديل العنوان", "save": "حفظ", "saved": "تم حفظ التغييرات.", "saveError": "تعذر حفظ التغييرات. تحقق من البيانات وحاول مجددًا.", "edit": "تعديل", "delete": "حذف", "cancel": "إلغاء", "noAddresses": "لا توجد عناوين توصيل محفوظة بعد.", "addressFields": {"recipient_name":"اسم المستلم","phone":"الهاتف","city":"المدينة","district":"المنطقة","street":"الشارع والبناية","landmark":"أقرب نقطة دالة (اختياري)"},
+    "emptyOrders": "لا توجد طلبات بعد.", "emptyFavorites": "لا توجد عطور محفوظة بعد.",
+    "loadError": "تعذر تحميل البيانات. حدّث الصفحة للمحاولة مجددًا.",
+    "orderNumber": "الطلب {number}", "total": "الإجمالي", "cashOnDelivery": "طريقة الدفع: عند الاستلام",
+    "status": {"new": "جديد", "confirmed": "مؤكد", "preparing": "قيد التحضير", "shipped": "تم الشحن", "delivered": "تم التسليم", "cancelled": "ملغى", "returned": "مرتجع"}
+  },
+  "adminOperations": {
+    "back": "← الإدارة", "eyebrow": "إدارة الدار", "coupons": "القسائم", "quiz": "اختبار المستشار", "staff": "صلاحيات الفريق", "shipping": "مناطق التوصيل", "brand": "أساسيات العلامة", "save": "حفظ التغييرات", "create": "إنشاء", "saving": "جارٍ الحفظ…", "saved": "تم الحفظ.", "failed": "تعذر حفظ التغييرات.", "loadError": "تعذر تحميل السجلات.", "empty": "لا توجد سجلات بعد.", "active": "مفعّل", "inactive": "متوقف", "code": "الرمز", "type": "نوع الخصم", "percent": "نسبة مئوية", "fixed": "مبلغ ثابت", "value": "القيمة", "maxDiscount": "الحد الأقصى للخصم (وحدات صغرى)", "minSubtotal": "الحد الأدنى للطلب (وحدات صغرى)", "startsAt": "يبدأ في", "expiresAt": "ينتهي في", "totalLimit": "إجمالي الاستخدامات (فارغ بلا حد)", "perCustomerLimit": "الاستخدامات لكل عميل", "zoneSlug": "معرّف المنطقة", "nameAr": "الاسم (عربي)", "nameEn": "الاسم (إنجليزي)", "fee": "رسوم التوصيل (وحدات صغرى)", "email": "بريد الموظف", "role": "الدور", "manager": "مدير", "ordersManager": "مسؤول الطلبات", "inventoryManager": "مسؤول المخزون", "enable": "مفعّل", "assign": "تعيين أو تحديث صلاحية الفريق", "disable": "لإيقاف الصلاحية، أزل علامة التفعيل ثم احفظ.", "version": "الإصدار", "status": "الحالة", "draft": "مسودة", "published": "منشور", "retired": "متقاعد", "newDraft": "إنشاء مسودة اختبار", "publish": "نشر الإصدار", "question": "السؤال", "key": "معرّف السؤال", "titleAr": "العنوان (عربي)", "titleEn": "العنوان (إنجليزي)", "hintAr": "تلميح (عربي)", "hintEn": "تلميح (إنجليزي)", "kind": "نوع السؤال", "required": "إلزامي", "sortOrder": "الترتيب", "enabled": "مفعّل", "option": "الخيار", "labelAr": "نص الخيار (عربي)", "labelEn": "نص الخيار (إنجليزي)", "targetVector": "JSON متجه الهدف", "weights": "JSON أوزان الأبعاد", "filters": "JSON بيانات التصفية", "editQuestion": "إضافة أو تحديث سؤال", "editOption": "إضافة خيار", "noDraft": "أنشئ مسودة إصدار قبل تعديل الأسئلة.", "brandTitle": "ملف العلامة", "brandNote": "تعديل ملف العلامة غير متاح في هذا الإصدار.", "lastManager": "يجب إبقاء مدير واحد مفعّل على الأقل.", "genericError": "تعذرت العملية. تحقق من البيانات وحاول مجددًا."
+  },
+  "adminCatalog": {
+    "back":"العودة إلى الإدارة","eyebrow":"الكتالوج والمخزون","title":"المنتجات والمخزون","createProduct":"إضافة منتج","createDraft":"إنشاء مسودة","saveProduct":"حفظ المنتج","categories":"المجموعات","categoryHelp":"أدر أسماء المجموعات باللغتين التي تظهر في الكتالوج.","saveCategory":"حفظ المجموعة","category":"المجموعة","noCategory":"بلا مجموعة","loadError":"تعذر تحميل المنتجات.","empty":"لا توجد منتجات بعد.","variants":"الأحجام والأسعار","variantsCount":"حجم","stock":"المخزون","low":"مخزون منخفض","editVariant":"تعديل الحجم والسعر","addVariant":"إضافة حجم","saveVariant":"حفظ الحجم","adjustStock":"تعديل المخزون","changeStock":"التغيير (+/−)","reason":"السبب","active":"مفعّل","slug":"المعرّف","brand":"العلامة التجارية","nameAr":"الاسم (عربي)","nameEn":"الاسم (إنجليزي)","shortAr":"وصف قصير (عربي)","shortEn":"وصف قصير (إنجليزي)","descriptionAr":"الوصف (عربي)","descriptionEn":"الوصف (إنجليزي)","gender":"الفئة","genders":{"women":"للنساء","men":"للرجال","unisex":"للجميع"},"family":"العائلة العطرية","seasons":"المواسم (مفصولة بفواصل)","seasonValues":"استخدم spring أو summer أو autumn أو winter.","occasions":"المناسبات (مفصولة بفواصل)","occasionValues":"استخدم day أو night أو office أو travel أو evening.","concentration":"التركيز","longevityMin":"أقل مدة ثبات (ساعة)","longevityMax":"أقصى مدة ثبات (ساعة)","projection":"الفوحان (١–٥)","status":"الحالة","statuses":{"draft":"مسودة","published":"منشور","archived":"مؤرشف"},"priority":"أولوية الترشيح","featured":"إبراز في المجموعة","recommendationEnabled":"إدراج ضمن الترشيحات العطرية","imagePath":"الصورة الرئيسية","uploadImage":"اختر صورة","imageUploadHelp":"اختر صورة لا يتجاوز حجمها ٥ ميغابايت.","imageTypes":"الصيغ المقبولة JPEG أو PNG أو WebP فقط.","imageUploading":"جارٍ رفع الصورة…","imageUploadError":"تعذر رفع الصورة. تحقق من الصيغة والحجم.","imageAltAr":"وصف الصورة (عربي)","imageAltEn":"وصف الصورة (إنجليزي)","notes":"النفحات العطرية","notesHelp":"نفحة واحدة في كل سطر: layer|slug|الاسم العربي|الاسم الإنجليزي. الطبقة: top أو heart أو base.","attributes":"الملف العطري (٠–١٠٠)","attributesHelp":"أدخل الأبعاد الـ١٢ كاملة، بعد واحد في كل سطر بصيغة dimension=value: woody, floral, fresh, sweet, warm, smoky, bold, calm, classic, modern, day, night.","sku":"رمز المخزون","sizeMl":"الحجم (مل)","priceIqd":"السعر (د.ع)","compareIqd":"السعر قبل الخصم (د.ع، اختياري)","iqdPrecision":"أدخل المبلغ بالدينار. تُحوّل حتى ثلاث منازل عشرية بدقة إلى الوحدات الصغرى المخزنة.","lowStock":"حد المخزون المنخفض"
+  }
+}

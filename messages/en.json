@@ -1,0 +1,85 @@
+{
+  "metadata": { "title": "Maison Sillage — Fragrance, made personal", "description": "Discover a world of thoughtfully chosen fragrances." },
+  "nav": { "home": "Return to homepage", "label": "Main navigation", "shop": "Shop", "story": "Our story", "advisor": "Scent advisor", "cart": "Bag", "account": "Account", "language": "العربية" },
+  "chime": { "label": "Welcome chime", "prompt": "A quiet welcome from the Maison?", "play": "Play chime", "skip": "No, thanks" },
+  "adminCore": {
+    "admin": "Admin", "operations": "ORDER OPERATIONS", "orders": "Orders", "orderDetail": "ORDER DETAIL", "statusLabel": "Status", "allStatuses": "All statuses", "filter": "Filter", "loadError": "Unable to load orders.", "order": "Order", "customer": "Customer", "total": "Total", "placed": "Placed", "open": "Open", "noOrders": "No orders match this filter.",
+    "fulfilment": "Fulfilment", "cash": "Cash", "address": "Address", "notes": "Notes", "updateStatus": "Update status", "nextStatus": "Next status", "reason": "Reason (required for cancel or return)", "confirmCash": "Cash collected on delivery", "finalStatus": "This order has reached a final status.",
+    "notification": "Notification", "attempts": "Attempts", "lastIssue": "Last issue", "nextAttempt": "Next attempt", "retryNotification": "Retry notification", "forceResend": "Force resend", "noNotification": "No notification record.", "items": "Items", "history": "Status history", "created": "Created", "saved": "Saved", "saving": "Saving…", "saveError": "Could not save the change. Review the values and try again.",
+    "status": {"new":"New","confirmed":"Confirmed","preparing":"Preparing","shipped":"Shipped","delivered":"Delivered","cancelled":"Cancelled","returned":"Returned"},
+    "cashStatus": {"uncollected":"Uncollected","collected":"Collected","not_due":"Not due"},
+    "notificationStatus": {"pending":"Pending","processing":"Processing","sent":"Sent","failed":"Failed"}
+  },
+  "hero": { "artDescription": "Sculptural perfume bottle in warm sunlight", "eyebrow": "The art of scent, made personal", "title": "A fragrance that lingers\nafter words have gone.", "body": "Discover a world of quiet, distinctive fragrances, made to accompany your moments just as you want to remember them.", "primary": "Explore the collection", "secondary": "Find your scent", "note": "Thoughtfully chosen, meant to be lived in." },
+  "collection": { "eyebrow": "The Maison Sillage world", "title": "Every scent begins a story.", "body": "We believe the most beautiful fragrance feels like you without explaining you. Discover balanced ingredients and considered details made to stay close.", "one": "Luminous notes", "two": "A lasting impression", "three": "A choice that feels like you" },
+  "footer": { "line": "Small details. A memory that stays.", "copyright": "© 2026 Maison Sillage. All rights reserved." },
+  "placeholder": { "message": "This page is planned for a later build stage.", "back": "Back to home" },
+  "advisor": {
+    "title": "Find the fragrance that feels like you",
+    "intro": "Eight thoughtful questions reveal your scent preferences, then we find the closest matches in the available collection.",
+    "loading": "Preparing your questions…",
+    "loadError": "We could not load the quiz right now. Please try again shortly.",
+    "saveError": "We could not save your answers. Please try again.",
+    "retry": "Try again",
+    "matching": "Matching your choices with the available collection…",
+    "noMatches": "No available fragrance matched these preferences. Adjust your budget or exclusions and search again.",
+    "startOver": "Start again",
+    "newConsultation": "Start a new consultation",
+    "profile": "Your scent DNA",
+    "question": "QUESTION {current} OF {total}",
+    "back": "Back",
+    "answersSaved": "Your answers are saved for this session",
+    "available": "Available now",
+    "unavailable": "Currently unavailable",
+    "notMeasured": "Not measured",
+    "scoreLabel": "{score}% match",
+    "disclaimer": "The match score is an internal measure of how closely a fragrance reflects your preferences, not a promise that you will love it.",
+    "errors": {"unavailable":"The advisor is not available right now.","not_found":"This session or result could not be found.","invalid":"Please check your answers and try again.","incomplete":"Please answer a few more preference questions.","no_matches":"No available fragrance matched these preferences.","expired":"This session has expired. Start a new consultation.","database":"The advisor could not save your result."}
+  },
+  "auth": {
+    "signIn": "Sign in",
+    "createAccount": "Create account",
+    "fullName": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "welcome": "Sign in to follow your orders and saved fragrances.",
+    "registerIntro": "Create an account to keep your orders and favorite scents.",
+    "newHere": "New here?",
+    "haveAccount": "Already have an account?",
+    "working": "Please wait…",
+    "checkEmail": "We sent a confirmation link to your email. Open it to finish registration.",
+    "tryAgain": "We could not complete that request. Check your details and try again.",
+    "unavailable": "Accounts are not configured yet. Please try again later.",
+    "account": "My account",
+    "signedInAs": "Signed in as",
+    "signOut": "Sign out", "forgotPassword": "Forgot password", "resetPassword": "Reset password", "newPassword": "New password", "sendReset": "Send reset link", "resetEmailSent": "If the address is registered, a reset link will arrive by email."
+  },
+  "catalog": {
+    "familyFilter": "Fragrance family", "seasonFilter": "Season", "occasionFilter": "Occasion", "genderFilter": "For whom", "anyFilter": "All", "minPrice": "Price from (IQD)", "maxPrice": "Price to (IQD)",
+    "eyebrow": "THE FRAGRANCE COLLECTION", "title": "Find your next signature.", "intro": "Explore considered scents made for every mood, from bright citrus to quiet woods.", "searchLabel": "Search", "searchPlaceholder": "Name, house, or fragrance family", "categoryLabel": "Collection", "allCategories": "All collections", "availabilityLabel": "Availability", "anyAvailability": "Any availability", "availableOnly": "In stock", "unavailableOnly": "Out of stock", "applyFilters": "Apply", "resetFilters": "Clear filters", "resultCount": "{count, plural, one {# fragrance} other {# fragrances}}", "noResults": "No fragrances found", "noResultsBody": "Try a different name or clear a filter to explore the full collection.", "unconfigured": "The catalog is not connected yet", "unconfiguredBody": "Connect the local Supabase project and run its migrations and seed to browse the demo fragrances.", "loadError": "The collection could not be loaded", "loadErrorBody": "Please refresh the page in a moment.", "viewProduct": "View fragrance", "from": "From", "inStock": "In stock", "outOfStock": "Currently unavailable", "productNotFound": "Fragrance not found", "backToShop": "Back to the collection", "notes": "The notes", "topNotes": "Opening", "heartNotes": "Heart", "baseNotes": "Dry down", "size": "Size", "concentration": "Concentration", "longevity": "Wear", "projection": "Projection", "gender": "Collection", "family": "Fragrance family", "seasons": "Season", "occasions": "Occasion", "featured": "Maison selection", "homeLink": "Return to the Maison",
+    "saveFavorite":"Save fragrance", "removeFavorite":"Remove from saved", "favoriteWorking":"Saving…", "favoriteSaved":"Fragrance saved.", "favoriteRemoved":"Fragrance removed from saved items.", "favoriteAuth":"Sign in to save this fragrance.", "favoriteError":"We could not update saved fragrances. Try again.",
+    "terms": {"spring":"Spring","summer":"Summer","autumn":"Autumn","winter":"Winter","day":"Day","night":"Night","office":"Office","travel":"Travel","evening":"Evening","occasion":"Occasion"}
+  },
+  "cart": {
+    "title": "Your bag", "empty": "Your bag is waiting for a fragrance.", "continue": "Continue shopping", "checkout": "Continue to checkout", "subtotal": "Subtotal", "quantity": "Quantity", "size": "Size", "remove": "Remove", "loading": "Loading your bag…", "error": "We could not load your bag. Sign in and try again.", "unavailable": "This item is no longer available.", "added": "Added to your bag", "add": "Add to bag", "adding": "Adding…", "viewCart": "View bag", "signInToAdd": "Sign in to add this fragrance.", "addError": "Could not add this item. Please try again.", "mergeAdjusted": "Some items were unavailable or their quantities were adjusted. Please review your bag."
+  },
+  "checkout": {
+    "title": "Delivery details", "intro": "Your order will be paid for in cash when it arrives.", "recipientName": "Recipient name", "phone": "Phone in international format", "city": "City", "district": "District", "street": "Street and building", "landmark": "Landmark (optional)", "notes": "Order note (optional)", "zone": "Delivery area", "coupon": "Coupon code", "apply": "Update quote", "place": "Place COD order", "payment": "Cash on delivery", "summary": "Order summary", "subtotal": "Items", "discount": "Discount", "shipping": "Delivery", "total": "Total due on delivery", "working": "Preparing your order…", "quoteRequired": "Update the quote before placing your order.", "quoteExpired": "Your quote expired. Update it and try again.", "stockChanged": "Stock changed. Update your bag and quote.", "priceChanged": "Prices or delivery fees changed. Review the new total before ordering.", "couponInvalid": "That coupon is not valid for this order.", "COUPON_INVALID": "That coupon is not valid for this order.", "COUPON_LIMIT_REACHED": "This coupon has reached its redemption limit.", "RATE_LIMITED": "Too many order attempts. Wait one minute and try again.", "success": "Your order is confirmed.", "orderNumber": "Order number", "viewOrder": "View your order", "empty": "Your bag is empty.", "unavailable": "Checkout is temporarily unavailable.", "AUTH_REQUIRED": "Sign in to continue with checkout.", "EMAIL_UNCONFIRMED": "Confirm your email before placing an order.", "INVALID_BODY": "Check the details and try again.", "IDEMPOTENCY_CONFLICT": "This order attempt was changed. Start checkout again.", "PRODUCT_UNAVAILABLE": "One or more items are no longer available.", "SHIPPING_ZONE_INVALID": "Choose an available delivery area.", "QUOTE_INVALID": "Update your quote and try again.", "INTERNAL_ERROR": "Something went wrong. Please try again.", "CSRF_REJECTED": "Refresh the page and try again."
+  },
+  "orders": {
+    "title": "Your orders", "empty": "You have not placed an order yet.", "status": "Status", "new": "Received", "confirmed": "Confirmed", "preparing": "Preparing", "shipped": "On the way", "delivered": "Delivered", "cancelled": "Cancelled", "returned": "Returned", "back": "Back to your account"
+  },
+  "account": {
+    "navigation": "Account pages", "overview": "Overview", "orders": "Previous orders", "favorites": "Saved fragrances", "profile": "Profile details", "profileName": "Full name", "profilePhone": "Phone", "addresses": "Delivery addresses", "addAddress": "Add address", "editAddress": "Edit address", "save": "Save", "saved": "Your changes have been saved.", "saveError": "We could not save your changes. Check the details and try again.", "edit": "Edit", "delete": "Delete", "cancel": "Cancel", "noAddresses": "No saved delivery addresses yet.", "addressFields": {"recipient_name":"Recipient name","phone":"Phone","city":"City","district":"District","street":"Street and building","landmark":"Landmark (optional)"},
+    "emptyOrders": "You have no orders yet.", "emptyFavorites": "No saved fragrances yet.",
+    "loadError": "Could not load this page. Refresh to try again.",
+    "orderNumber": "Order {number}", "total": "Total", "cashOnDelivery": "Payment: cash on delivery",
+    "status": {"new": "New", "confirmed": "Confirmed", "preparing": "Preparing", "shipped": "Shipped", "delivered": "Delivered", "cancelled": "Cancelled", "returned": "Returned"}
+  },
+  "adminOperations": {
+    "back": "← Admin", "eyebrow": "MANAGER OPERATIONS", "coupons": "Coupons", "quiz": "Advisor quiz", "staff": "Staff access", "shipping": "Shipping zones", "brand": "Brand basics", "save": "Save changes", "create": "Create", "saving": "Saving…", "saved": "Saved.", "failed": "Could not save changes.", "loadError": "Could not load records.", "empty": "No records yet.", "active": "Active", "inactive": "Inactive", "code": "Code", "type": "Discount type", "percent": "Percent", "fixed": "Fixed amount", "value": "Value", "maxDiscount": "Maximum discount (minor units)", "minSubtotal": "Minimum subtotal (minor units)", "startsAt": "Starts at", "expiresAt": "Expires at", "totalLimit": "Total uses (blank for unlimited)", "perCustomerLimit": "Uses per customer", "zoneSlug": "Zone slug", "nameAr": "Name (Arabic)", "nameEn": "Name (English)", "fee": "Delivery fee (minor units)", "email": "Staff email", "role": "Role", "manager": "Manager", "ordersManager": "Orders manager", "inventoryManager": "Inventory manager", "enable": "Enabled", "assign": "Assign or update staff access", "disable": "To disable, uncheck Enabled and save.", "version": "Version", "status": "Status", "draft": "Draft", "published": "Published", "retired": "Retired", "newDraft": "Create quiz draft", "publish": "Publish version", "question": "Question", "key": "Question key", "titleAr": "Title (Arabic)", "titleEn": "Title (English)", "hintAr": "Hint (Arabic)", "hintEn": "Hint (English)", "kind": "Question type", "required": "Required", "sortOrder": "Order", "enabled": "Enabled", "option": "Option", "labelAr": "Option label (Arabic)", "labelEn": "Option label (English)", "targetVector": "Target vector JSON", "weights": "Dimension weights JSON", "filters": "Filter payload JSON", "editQuestion": "Add or update question", "editOption": "Add option", "noDraft": "Create a draft version before editing questions.", "brandTitle": "Brand profile", "brandNote": "Brand profile editing is not available in this release.", "lastManager": "At least one active manager must remain.", "genericError": "The request failed. Check the fields and try again."
+  },
+  "adminCatalog": {
+    "back":"Admin home","eyebrow":"CATALOG & STOCK","title":"Products and inventory","createProduct":"Create product","createDraft":"Create draft","saveProduct":"Save product","categories":"Categories","categoryHelp":"Maintain the bilingual collection labels used by the catalog.","saveCategory":"Save category","category":"Category","noCategory":"No category","loadError":"Unable to load products.","empty":"No products yet.","variants":"Variants","variantsCount":"variants","stock":"Stock","low":"Low stock","editVariant":"Edit variant","addVariant":"Add variant","saveVariant":"Save variant","adjustStock":"Adjust stock","changeStock":"Change (+/−)","reason":"Reason","active":"Active","slug":"Slug","brand":"Brand","nameAr":"Name (Arabic)","nameEn":"Name (English)","shortAr":"Short description (Arabic)","shortEn":"Short description (English)","descriptionAr":"Description (Arabic)","descriptionEn":"Description (English)","gender":"Audience","genders":{"women":"Women","men":"Men","unisex":"Unisex"},"family":"Fragrance family","seasons":"Seasons (comma separated)","seasonValues":"Use spring, summer, autumn, winter.","occasions":"Occasions (comma separated)","occasionValues":"Use day, night, office, travel, evening.","concentration":"Concentration","longevityMin":"Longevity minimum (hours)","longevityMax":"Longevity maximum (hours)","projection":"Projection (1–5)","status":"Status","statuses":{"draft":"Draft","published":"Published","archived":"Archived"},"priority":"Recommendation priority","featured":"Feature in the collection","recommendationEnabled":"Include in scent recommendations","imagePath":"Primary image","uploadImage":"Choose image","imageUploadHelp":"Select an image file up to 5 MiB.","imageTypes":"JPEG, PNG, or WebP only.","imageUploading":"Uploading image…","imageUploadError":"The image could not be uploaded. Check its format and size.","imageAltAr":"Image description (Arabic)","imageAltEn":"Image description (English)","notes":"Fragrance notes","notesHelp":"One per line: layer|slug|Arabic name|English name. Layer: top, heart, or base.","attributes":"Scent profile (0–100)","attributesHelp":"Enter all 12 dimensions, one per line as dimension=value: woody, floral, fresh, sweet, warm, smoky, bold, calm, classic, modern, day, night.","sku":"SKU","sizeMl":"Size (ml)","priceIqd":"Price (IQD)","compareIqd":"Compare-at price (IQD, optional)","iqdPrecision":"Enter major IQD. Up to three decimal places are converted exactly to stored minor units.","lowStock":"Low stock threshold"
+  }
+}
